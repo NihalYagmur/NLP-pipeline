@@ -25,7 +25,7 @@ public class App {
 				"Beat well and bake in a well-greased pan for 25 minutes in a hot oven.\r\n" + 
 				"Serve from the same dish with a spoon.";
 				
-				/* another example recipe for test.
+				/* another example recipe for test. Example data is taken from wikihow.com
 				"Preheat oven to 375 degrees F. Grease a 9 x 13-inch baking pan.\r\n" + 
 				"Cream butter, brown sugar, granulated sugar and then add egg yolks.\r\n" + 
 				"Beat mixture well.\r\n" + 
