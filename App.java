@@ -40,7 +40,7 @@ public class App {
 				"Frost as desired.\r\n" + 
 				"Makes 1 large cake.\r\n";
 		*/
-		String path = "";  //enter the file path for your directory
+		String path = "";  //enter the file path of your directory
         String food = path+ "food.xml";
  	     String container = path+ "containers.xml";
 	      String measure = path+ "Measure_volume.xml";
