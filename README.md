@@ -9,6 +9,6 @@ This repository has been created for EASE project, part: H2.
 + http://easeh2.blogspot.com/ is the blog for general nlp research.
 
 # Python Implementation
-+nlp.py code takes a sentence as input and creates tuples for pos tags and frames based on FrameNet. (this code can work both in python 2.7 and python 3.6)
-+concept-extractor.py code takes a sentence as input and find concepts associated with each word - based on ConceptNet. This code works in python3.
++ nlp.py code takes a sentence as input and creates tuples for pos tags and frames based on FrameNet. (this code can work both in python 2.7 and python 3.6)
++ concept-extractor.py code takes a sentence as input and find concepts associated with each word - based on ConceptNet. This code works in python3.
 
