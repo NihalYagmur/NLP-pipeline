@@ -7,7 +7,7 @@ This repository has been created for EASE project, part: H2.
 + concept-extraction.py takes a sentence as input and find concepts associated with each word - based on ConceptNet. This code works in python3. The output is in JSON format.
 + ccg.py takes a sentence as input and finds the associated matches for the words from morph.xml file (openccg).
 + testccg.py takes a sentence as input and finds the relations from morph.xml and types.xml files, creating tuples and triples.
-+ fullv2.py takes a sentence as input and connects all relations into one output.
++ fullv2.py takes a sentence as input and connects all relations.
 
 # Java Implementation
 + App.java has been written in Java and JRE 8 is required.
