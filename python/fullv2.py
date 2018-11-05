@@ -4,7 +4,17 @@ from xml.etree import ElementTree
 from pprint import pprint
 from nltk.corpus import framenet as fn
 
-list = word_tokenize('add boiling water into the cup.')
+punct = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+sent = input("Enter the sentence: ")
+
+
+no_punct = ""
+for char in sent:
+   if char not in punct:
+       no_punct = no_punct + char
+
+list = word_tokenize(no_punct.lower())
 i=0
 
 postagged =  nltk.pos_tag(list)
@@ -69,6 +79,10 @@ for node in tree.iter('entry'):
 
       if name==x and types ==cl:
            print ("inheritance"+ '(%s,%s)' % (cl, parents))
+
+
+          
+
 
 
           
