@@ -5,8 +5,8 @@ This repository has been created for EASE project, part: H2.
 # Python Implementation
 + nlp.py takes a sentence as input and creates tuples in the form (word,pos tag) and (word, frame)  based on the frames in FrameNet. (this code can both work in python 2.7 and python 3.6)
 + concept-extraction.py takes a sentence as input and find concepts associated with each word - based on ConceptNet. This code works in python3. The output is in JSON format.
-+ ccg.py takes a sentence as input and find the associated matches for the words from morph.xml file (openccg).
-
++ ccg.py takes a sentence as input and finds the associated matches for the words from morph.xml file (openccg).
++ testccg.py takes a sentence as input and finds the relations from morph.xml and types.xml files, creating tuples and triples.
 
 # Java Implementation
 + App.java has been written in Java and JRE 8 is required.
