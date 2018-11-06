@@ -9,6 +9,7 @@ This repository has been created for EASE project, part: H2.
 + testccg.py takes a sentence as input and finds the relations from morph.xml and types.xml files, creating tuples and triples.
 + fullv2.py takes a sentence as input and connects all relations.
 + dandelion.py takes the text as input and extracts entities from the text through Dandelion API.
++ fullv5.py takes a sentence as input and returns json-formatted data.
 
 # Java Implementation
 + App.java has been written in Java and JRE 8 is required.
