@@ -9,8 +9,7 @@ This repository has been created for EASE project, part: H2.
 + testccg.py takes a sentence as input and finds the relations from morph.xml and types.xml files, creating tuples and triples.
 + fullv2.py takes a sentence as input and connects all relations.
 + dandelion.py takes the text as input and extracts entities from the text through Dandelion API.
-+ fullv5.py takes a sentence as input and returns a formatted data.
-+ fullv7.py takes a sentence as input and returns formatted data.
++ fullv5.py and fullv7.py takes a sentence as input and returns a formatted data.
 + fullv8.py takes a sentence as input and returns formatted data (named entity recognition added, with Spacy library.)
 + final.py is the file with the final structure (contains frames based on Framenet, pos-tags,named entity recognition, ccg-tags referring to ontospace ontology and the grammar library.)
 
