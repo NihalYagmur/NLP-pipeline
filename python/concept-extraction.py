@@ -14,8 +14,8 @@ i = 0
 for x in list:
  for i in range(20):
     obj = requests.get(link+x).json()
-    obj.keys()
-    print('word:'+x)
+    obj.keys() 
     print(obj['edges'][i])
+print('word:'+x)
 
 
