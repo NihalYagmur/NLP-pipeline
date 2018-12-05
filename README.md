@@ -12,6 +12,8 @@ This repository has been created for EASE project, part: H2.
 + fullv5.py and fullv7.py takes a sentence as input and returns a formatted data.
 + fullv8.py takes a sentence as input and returns formatted data (named entity recognition added, with Spacy library.)
 + final.py is the file with the final structure (contains frames based on Framenet, pos-tags,named entity recognition, ccg-tags referring to ontospace ontology and the grammar library.)
++ combination.py prints combinations of words in sentence.
++ ngram.py prints n-grams in sentences.
 
 # Java Implementation
 + App.java has been written in Java and JRE 8 is required.
