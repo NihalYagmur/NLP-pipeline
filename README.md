@@ -2,6 +2,9 @@
 This repository has been created for EASE project, part: H2. 
 + http://easeh2.blogspot.com/ is the blog for general nlp research.
 
+# Implementation with R
+Some codes for statistical analysis on text are added.
+
 # Python Implementation
 + nlp.py takes a sentence as input and creates tuples in the form (word,pos tag) and (word, frame)  based on the frames in FrameNet. (this code can both work in python 2.7 and python 3.6)
 + concept-extraction.py takes a sentence as input and find concepts associated with each word - based on ConceptNet. This code works in python3. The output is in JSON format.
