@@ -1,0 +1,7 @@
+docs<- Corpus(DirSource(directory = file path))
+docs2 <-corpus(docs)
+toks <- tokens(docs2)
+
+> in_dfm <- dfm(toks, remove = stopwords('en'))
+> lexdiv <- textstat_lexdiv(in_dfm)
+> tail(lexdiv, 5)
